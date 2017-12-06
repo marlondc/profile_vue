@@ -7,6 +7,7 @@ Vue.use(VueRouter)
 
 import Home from './components/Home.vue'
 import './assets/stylesheets/main.scss';
+import './assets/images/favicon.ico';
 
 const router = new VueRouter({
   mode: 'history',

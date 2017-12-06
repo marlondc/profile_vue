@@ -56,7 +56,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.jpe?g$|\.gif$|\.png$|\.svg$/,
+        test: /\.jpe?g$|\.gif$|\.png$|\.svg$|\.ico$/,
         loader: 'file-loader',
         options: {
           limit: 100000,
