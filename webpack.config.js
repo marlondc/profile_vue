@@ -2,6 +2,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   // This is the "main" file which should include all other modules
@@ -10,11 +11,6 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js'
-  },
-  resolve: {
-    alias: {
-      vue: 'vue/dist/vue.js'
-    }
   },
   module: {
     // Special compilation rules
@@ -71,6 +67,7 @@ module.exports = {
         NODE_ENV: '"production"'
       }
     }),
-    new ExtractTextPlugin("styles.css")
+    new ExtractTextPlugin("styles.css"),
+    new UglifyJsPlugin()
   ]
 }
