@@ -2,7 +2,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   // This is the "main" file which should include all other modules
@@ -11,6 +11,11 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js'
+  },
+  resolve: {
+    alias: {
+      vue: 'vue/dist/vue.common.js'
+    }
   },
   module: {
     // Special compilation rules
