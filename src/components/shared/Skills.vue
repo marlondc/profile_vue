@@ -33,7 +33,7 @@
           {
             title: 'Fast Learner, always learning',
             details: [
-              'Ready and willing to try the next big thing. Started my journey into developing with ruby, ruby on rails, relational databases, OOP and MVC style, made a slight jump to see how php does it with Laravel. Then took a hard right to decoupled front and back end systems with javascript, node, non-relational databases, react, redux and FP patterns.'
+              'Ready and willing to try the next big thing. Started my journey into developing with ruby, ruby on rails, relational databases, OOP and MVC patterns, saw how php does it with Laravel. I then took a hard right to decoupled front and back end systems with javascript, node, non-relational databases, react, redux and FP patterns.'
             ]
           },
           {
