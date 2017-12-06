@@ -68,6 +68,6 @@ module.exports = {
       }
     }),
     new ExtractTextPlugin("styles.css"),
-    new UglifyJsPlugin()
+    new UglifyJsPlugin(),
   ]
 }
