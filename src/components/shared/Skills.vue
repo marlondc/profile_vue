@@ -25,9 +25,9 @@
         title: 'Skills',
         skills: [
           {
-            title: 'Preferred Tech Stack',
+            title: 'Comfortable Tech Stack',
             details: [
-              'React', 'Redux', 'Node', 'Express', 'Mongo', 'ES6', 'Jest', 'Webpack', 'ESLint'
+              'React', 'Redux', 'Node', 'Express', 'Mongo', 'ES6', 'Jest', 'Webpack', 'ESLint', 'Github'
             ]
           },
           {
