@@ -42,7 +42,7 @@
             Grade 6 Double Bassist
           </p>
           <p class="list__description">
-            Current Tune on repeat: Meeting Place by Last of the Shadow Puppets
+            Current Tune on repeat: Something Soon (Car Seat Headrest)
           </p>
         </li>
       </ul>
